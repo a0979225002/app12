@@ -1,0 +1,2 @@
+rootProject.name='servise背景執行基本用法,音樂播放'
+include ':app'
