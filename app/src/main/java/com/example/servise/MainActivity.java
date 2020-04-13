@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-//                fromUser = 由使用這點擊時,會是true
+//                fromUser = 只要使用者有點擊時,監聽就會傳回true
                 if (fromUser){
                     seekTo(progress);//點擊進度條到哪裡時,會轉成int progress
                 }
